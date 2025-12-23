@@ -60,12 +60,12 @@ The project evaluates both traditional machine learning models and **Graph Neura
 ## Results
 | Model | F1-macro | AUC |
 |------|----------|-----|
-| Logistic Regression | Low | - |
-| Random Forest | Moderate | - |
-| Autoencoder | Moderate | - |
-| GCN | Improved | - |
-| GAT | Improved | - |
-| **GIN** | **0.52** | **0.75** |
+| Logistic Regression | 0.2 | 0.74 |
+| Random Forest | 0.05 | **0.84** |
+| Autoencoder | 0.51 | 0.61 |
+| GCN | 0.52 | 0.52 |
+| GAT | 0.5 | 0.55 |
+| **GIN** | **0.52** | 0.75 |
 
 The **GIN model** achieved the best overall performance, demonstrating the effectiveness of graph-based approaches for fraud detection under severe class imbalance.
 
